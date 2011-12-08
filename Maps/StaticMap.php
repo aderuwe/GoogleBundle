@@ -144,7 +144,7 @@ class StaticMap extends AbstractMap
                 if ($longitude = $marker->getLongitude()) {
                     $request .= ','.$longitude;
                 }
-            }	
+            }
         }
         $request = rtrim($request, "& ");
         $out = '<img id="'.$this->getId().'" src="'.$request.'" />';

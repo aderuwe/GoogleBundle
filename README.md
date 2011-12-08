@@ -154,9 +154,9 @@ the applications's `config.yml` file (The static service does NOT require an API
 Include the Google Maps in your template like this:
 
     {% if google_maps.hasMaps() %}
-		{% for map in google_maps.getMaps() %}
-			{% autoescape false %}
-				{{ map.render }}
-			{% endautoescape %}
-		{% endfor %}
-	{% endif %}
+        {% for map in google_maps.getMaps() %}
+            {% autoescape false %}
+                {{ map.render }}
+            {% endautoescape %}
+        {% endfor %}
+    {% endif %}

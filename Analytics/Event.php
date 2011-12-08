@@ -14,10 +14,10 @@ class Event
 
     public function __construct($category, $action, $label = null, $value = null)
     {
-    	$this->action   = $action;
-    	$this->category = $category;
-    	$this->label    = $label;
-    	$this->value    = $value;
+        $this->action   = $action;
+        $this->category = $category;
+        $this->label    = $label;
+        $this->value    = $value;
     }
 
     /**

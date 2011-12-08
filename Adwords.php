@@ -27,7 +27,7 @@ class Adwords
         if (array_key_exists($key, $this->conversions)) {
             $this->container->get('session')->set(self::CONVERSION_KEY, $key);
         }
-    }	
+    }
 
     /**
      * @return Conversion $conversion
